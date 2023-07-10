@@ -1,0 +1,9 @@
+void main() {
+var ferhinat=50;
+  
+  double c= (ferhinat-32)/1.8;
+  print(c);
+  double raduis=1.5;
+ double area=3.14*(raduis*raduis);
+print(area);
+}

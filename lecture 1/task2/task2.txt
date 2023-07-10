@@ -1,0 +1,39 @@
+void main() {
+  int degree = 85; // replace with any degree value between 0 and 100
+  
+  String grade;
+  
+  switch(degree ~/ 10) {
+    case 10:
+    case 9:
+      grade = "A";
+      break;
+    case 8:
+      grade = "B";
+      break;
+    case 7:
+      grade = "C";
+      break;
+    case 6:
+      grade = "D";
+      break;
+    default:
+      grade = "F";
+      break;
+  }
+  
+  print("Your grade is $grade");
+int num1=50;
+  int  num2=60;
+  int num3=30;
+  double aver=(num1+num2+num3)/3;
+  print(aver);
+  
+  
+  if (num1>num2){
+    print("$num1 is large ");
+    
+  }else{
+      print("$num2 is large ");
+  }
+}
